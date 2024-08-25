@@ -90,14 +90,15 @@ let toggle = () => {
         calculatorSwitch.style.width = '100%'
         calculatorContainer.style.width = '50%'
         calculatorDesription.style.opacity = '1'
-        // calculatorSwitch.style.paddingLeft = '200px'
-        // calculatorSwitch.style.paddingRight = '200px'
+        calculatorSwitch.style.paddingLeft = '270px'
+        calculatorSwitch.style.paddingRight = '270px'
+        calculatorSwitch.style.width = `calc(100% - 540px)`;
     } else if (count % 2 == 0) {
         calculatorSwitch.style.width = '150%'
         calculatorContainer.style.width = '100%'
         calculatorDesription.style.opacity = '0'
-        // calculatorSwitch.style.paddingLeft = '0'
-        // calculatorSwitch.style.paddingRight = '0'
+        calculatorSwitch.style.paddingLeft = '0'
+        calculatorSwitch.style.paddingRight = '0'
 
 
     }
